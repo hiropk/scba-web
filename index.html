@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="島根県遊漁船組合の公式ホームページです。遊漁船情報、組合の活動内容、お知らせなどをご案内しています。">
+  <title>島根県遊漁船組合 | トップページ</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- ヘッダー -->
+  <header class="header">
+    <div class="header__inner">
+      <a href="index.html" class="header__logo-link">
+        <img src="images/scba_logo.png" alt="島根県遊漁船組合" class="header__logo">
+        <span class="header__title">島根県遊漁船組合</span>
+      </a>
+      <button class="header__nav-toggle" aria-label="メニューを開く" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="header__nav" aria-label="メインナビゲーション">
+        <ul class="header__nav-list">
+          <li class="header__nav-item">
+            <a href="index.html" class="header__nav-link">ホーム</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="about.html" class="header__nav-link">組合について</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="boats.html" class="header__nav-link">遊漁船情報</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- メインコンテンツ -->
+  <main>
+    <!-- ヒーローセクション -->
+    <section class="hero">
+      <img src="images/hero.png" alt="島根県遊漁船組合" class="hero__image">
+      <div class="hero__content">
+        <h1 class="hero__title">SHIMANE CHARTER BOAT ASSOCIATION</h1>
+      </div>
+    </section>
+
+    <div class="container">
+      
+      <!-- お知らせ -->
+      <section class="section" id="news">
+        <h2 class="section__title">お知らせ</h2>
+        <div class="list">
+          <article class="list__item">
+            <a href="news/2025-04-01.html" class="list__link">
+              <span class="list__title">2025年シーズン開始のお知らせ</span>
+              <span class="list__date">2025.04.01</span>
+            </a>
+          </article>
+          <article class="list__item">
+            <a href="news/2024-01-10.html" class="list__link">
+              <span class="list__title">ホームページリニューアルのお知らせ</span>
+              <span class="list__date">2024.01.10</span>
+            </a>
+          </article>
+        </div>
+      </section>
+      
+      <!-- 組合の紹介 -->
+      <section class="section" id="about">
+        <h2 class="section__title">組合について</h2>
+        <div class="card">
+          <p class="card__text">
+            島根県遊漁船組合は、島根県内における遊漁船業者が相互に連携し、遊漁船業の健全な発展および組合員の利益の増進を図るとともに、地域漁業の振興並びに遊漁者の安全確保に寄与することを目的としています。
+          </p>
+          <div class="mt-md text-center">
+            <a href="about.html" class="btn btn--primary">詳しく見る</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- 遊漁船情報 -->
+      <section class="section" id="boats">
+        <h2 class="section__title">遊漁船情報</h2>
+        <div class="card">
+          <p class="card__text">
+            島根県内の登録遊漁船をご案内しています。各船の詳細情報や予約方法については、遊漁船情報ページをご覧ください。
+          </p>
+          <div class="mt-md text-center">
+            <a href="boats.html" class="btn btn--primary">遊漁船一覧を見る</a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- フッター -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <img src="images/scba_banner.png" alt="島根県遊漁船組合" class="footer__logo">
+      <div class="footer__info">
+        <p class="footer__info-item">
+          メールアドレス：<a href="mailto:familiar.slj@gmail.com" class="footer__info-link">familiar.slj@gmail.com</a>
+        </p>
+      </div>
+      <nav class="footer__nav">
+        <ul class="footer__nav-list">
+          <li><a href="index.html" class="footer__nav-link">ホーム</a></li>
+          <li><a href="about.html" class="footer__nav-link">組合について</a></li>
+          <li><a href="boats.html" class="footer__nav-link">遊漁船情報</a></li>
+        </ul>
+      </nav>
+      <p class="footer__copyright">&copy; 2025 島根県遊漁船組合. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/navigation.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
